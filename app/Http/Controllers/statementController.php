@@ -13,6 +13,7 @@ class statementController extends Controller
      */
     public function Statement()
     {
+        $register=registers::all();
         return view('Statement');
     }
 
